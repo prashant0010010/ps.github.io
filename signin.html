@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>SignUp</title>
+	<link rel="stylesheet" type="text/css" href="login.css">
+</head>
+<body>
+	<header>
+		<div class="main">
+	<div class="logo">
+		<img src="logo.png">
+	</div>
+	<form action="" method="get,past,delete,put,patch" enctype="multipart/form_data" id="register_form" class="register_form" >
+		<fieldset>
+			<legend>
+				SignUp Form
+			</legend>
+			<fieldset>
+				<legend>
+					Personal Information
+				</legend>
+				<div class="group">
+					<label for="name">Name:</label>
+					<input type="Text" id="name" class="name" placeholder="Enter your name" name="name"/>
+				</div>
+				<div class="group">
+					<label for="address">Address:</label>
+					<input type="Text" id="address" class="address" placeholder="Enter your address" name="address"/>
+				</div>
+				<div class="group">
+					<label for="dob">Date of Birth:</label>
+					<input type="Text" id="dob" class="dob" placeholder="Enter your date of birth (dd//mm//yy)" name="dob"/>
+				</div>
+				<div class="group">
+					<label for="country">Country</label>
+					<select name="country" id="country" class="country">
+						<option value="">Select Country</option>
+						<option value="np">Nepal</option>
+						<option value="ch">China</option>
+						<option value="in">India</option>
+					</select>
+				</div>
+				<div class="group">
+					<label for="male">Gender:</label>
+					<input type="radio" name="gender" value="male" id="male">Male
+					<input type="radio" name="gender" value="female" id="female" checked="checked">Female
+				</div>
+				<div class="group">
+					<label for="image">Your Photo:</label>
+					<input type="file" id="image" class="image" placeholder="Enter your image" name="image"/>
+				</div>
+				
+			</fieldset>
+			
+			<div class="last_group">
+				<!-- <input type="submit" value="Register"> -->
+				<button type="submit" >Register</button>
+				<button type="reset" >Cancel</button>
+			</div>
+		</fieldset>
+	</form>
+</header>
+<footer class="footer">
+	<h1>Copyright &copy; Pacific 2020</h1>
+</footer>
+</body>
+</html>
