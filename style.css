@@ -163,7 +163,7 @@
     width: 100%;
     height: calc(100vh - 7rem);
     background: linear-gradient(rgba(18, 113, 255, 0.5), rgba(18, 113, 255, 0.3)),
-      url(image/im.jpg) center no-repeat;
+      url(im.jpg) center no-repeat;
     background-size: cover;
     position: relative;
     perspective: 100rem;
@@ -757,15 +757,4 @@
 
 
 
-  /*send message here html ko messagebox*/
-  .input-group1 input,
-  .input-group1 textarea {
-    padding: 50rem 200rem 10rem 10rem;
-    background-color: var(--secondary-color);
-    border: 0.1rem solid var(--secondary-color);
-    font-size: 1.4rem;
-    color: var(--light-grey-color);
-    letter-spacing: 0.1rem;
-    border-radius: 0.5rem;
-    transition: border 0.3s;
-  }
+ 
