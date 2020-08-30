@@ -163,7 +163,7 @@
     width: 100%;
     height: calc(100vh - 7rem);
     background: linear-gradient(rgba(18, 113, 255, 0.5), rgba(18, 113, 255, 0.3)),
-      url(im.jpg) center no-repeat;
+      url(image/im.jpg) center no-repeat;
     background-size: cover;
     position: relative;
     perspective: 100rem;
@@ -288,7 +288,7 @@
   
   /*  Our Services */
   .services {
-    padding: 5rem 0 10rem 0;
+    padding: 10rem 0 10rem 0;
   }
   
   .services-heading {
@@ -301,12 +301,12 @@
   
   .cards-wrapper {
     display: flex;
-    justify-content: space-evenly;
+    justify-content: center;
   }
   
   .card {
     width: 35rem;
-    position: relative;
+    position: center;
     perspective: 150rem;
   }
   
@@ -399,7 +399,7 @@
     letter-spacing: 0.2rem;
     cursor: pointer;
   }
-  /* End of Popular tours */
+  /* End of Services */
   
   /* Stories */
   .stories {
@@ -469,13 +469,19 @@
   .story-paragraph::first-letter {
     margin-left: 1rem;
   }
+
+  .featuredstory{
+      font-size: 100pt;
+      font-display: inherit;
+      color: red;
+  }
   /* End of Stories */
   
   /* Contact */
   .contact {
     padding: 15rem 0 20rem 0;
     text-align: center;
-    background: url(contact.jpg) center no-repeat;
+    background: url(image/contact.jpg) center no-repeat;
     background-size: cover;
     animation: contact-bg 35s infinite;
   }
@@ -747,4 +753,19 @@
     html {
       font-size: 45%;
     }
+  }
+
+
+
+  /*send message here html ko messagebox*/
+  .input-group1 input,
+  .input-group1 textarea {
+    padding: 50rem 200rem 10rem 10rem;
+    background-color: var(--secondary-color);
+    border: 0.1rem solid var(--secondary-color);
+    font-size: 1.4rem;
+    color: var(--light-grey-color);
+    letter-spacing: 0.1rem;
+    border-radius: 0.5rem;
+    transition: border 0.3s;
   }
