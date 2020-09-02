@@ -163,7 +163,7 @@
     width: 100%;
     height: calc(100vh - 7rem);
     background: linear-gradient(rgba(18, 113, 255, 0.5), rgba(18, 113, 255, 0.3)),
-      url(im.jpg) center no-repeat;
+      url(image/im.jpg) center no-repeat;
     background-size: cover;
     position: relative;
     perspective: 100rem;
@@ -471,10 +471,16 @@
   }
 
   .featuredstory{
-      font-size: 50pt;
+      font-size: 100pt;
       font-display: inherit;
       color: red;
   }
+  .story-photo{
+    
+      width: 100%;
+      height: 500%;    
+      animation: image-float 150s ;
+    }
   /* End of Stories */
   
   /* Contact */
@@ -756,5 +762,3 @@
   }
 
 
-
- 
