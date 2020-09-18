@@ -301,14 +301,27 @@
   
   .cards-wrapper {
     display: flex;
-    justify-content: center;
+    justify-content: left;
+    padding-left: 200px;
+  }
+
+  .cards-wrapper {
+    display: flex;
+    justify-content: right;
+    
   }
   
   .card {
     width: 35rem;
-    position: center;
+    position: left;
     perspective: 150rem;
   }
+  .card {
+    width: 35rem;
+    position: right;
+    perspective: 150rem;
+  }
+ 
   
   .card-image {
     width: 100%;
@@ -331,18 +344,7 @@
     opacity: 0.5;
     z-index: 0;
   }
-  
-  .tour-name {
-    font-size: 2.5rem;
-    font-weight: 700;
-    text-transform: uppercase;
-    position: absolute;
-    top: 30%;
-    right: 1.5rem;
-    color: var(--red-color);
-    text-shadow: 0 0 1rem red;
-  }
-  
+ 
   .card-list {
     width: 80%;
     margin: auto;
